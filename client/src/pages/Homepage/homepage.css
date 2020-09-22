@@ -5,3 +5,36 @@
     margin-top: 50px;
     text-align: center;
 }
+
+.searchMovieTitle {
+    margin: 30px;
+    text-align: center;
+}
+
+.searchBar {
+    font-size: 30px;
+    box-shadow: 1px 1px 4px 0px black;
+    border-radius: 1.1rem;
+}
+
+.searchBtn {
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 6px;
+    font-size: 30px;
+    right: 11px;
+}
+
+.searchBtn:active {
+    transform: scale(0.9);
+}
+
+.searchBtn:focus {
+    outline: none;
+}
+
+.input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
+    border-top-right-radius: 1.1rem;
+    border-bottom-right-radius: 1.1rem;
+}
