@@ -9,7 +9,8 @@ function Home() {
     return (
         <Container>
             <Jumbotron id='homepageJumbo'>
-                <h1>Hello there!</h1>
+                <h1>Movies seen this year: (0)</h1>
+                <h1>Last movie seen: (undefined)</h1>
             </Jumbotron>
         </Container>
     )
