@@ -21,9 +21,10 @@
     border: none;
     background-color: transparent;
     position: absolute;
-    top: 6px;
+    top: 5px;
     font-size: 30px;
     right: 11px;
+    z-index: 3;
 }
 
 .searchBtn:active {
@@ -37,4 +38,17 @@
 .input-group>.custom-select:not(:last-child), .input-group>.form-control:not(:last-child) {
     border-top-right-radius: 1.1rem;
     border-bottom-right-radius: 1.1rem;
+}
+
+#loadingResults {
+    margin-top: 5%;
+    text-align: center;
+    display: none;
+    flex-direction: row;
+    justify-content: center;  
+}
+
+.dot {
+    /* display: none; */
+    opacity: 0;
 }
